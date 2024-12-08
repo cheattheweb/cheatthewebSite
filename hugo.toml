@@ -1,4 +1,30 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://cheattheweb.com'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'lightbi-hugo'
+previewCardImagePlacement = "top"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 2
+
+[[menu.main]]
+    name = "Collections"
+    url = "/collections/"
+    weight = 3
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 4
+    
+[[menu.main]]
+    name = "Post"
+    url = "/post/"
+    weight = 5
